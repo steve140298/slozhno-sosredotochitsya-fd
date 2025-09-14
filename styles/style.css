@@ -1,6 +1,5 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
-  padding: var(--page-paddings, 10px);
   color: var(--primary-text-color, #F1B2CE);
   font-family: 'IBM Plex mono';
   font-size: var(--text-size, 1.125rem);
@@ -145,7 +144,7 @@
   font-size: inherit;
 }
 
-.advices__item:not(:last-child){
+.advices__item:not(:last-child) {
   margin-block-end: 20px;
 }
 
